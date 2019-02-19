@@ -4,9 +4,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(arr)
+  str = ""
   arr.each do |name|
-    puts "Hello, my name is #{name}."
+    str << "Hello, my name is #{name}, "
   end
+  return str[0...-1] << .
 end
 
 def assign_rooms
