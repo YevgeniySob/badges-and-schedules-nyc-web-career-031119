@@ -8,7 +8,7 @@ def batch_badge_creator(arr)
   arr.each do |name|
     str << "Hello, my name is #{name}, "
   end
-  return str[0...-1] << .
+  return str[0...-2] << "."
 end
 
 def assign_rooms
