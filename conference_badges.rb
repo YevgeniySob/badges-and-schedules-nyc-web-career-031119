@@ -16,4 +16,4 @@ end
 def printer
   
 end
-batch_badge_creator
+batch_badge_creator(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
