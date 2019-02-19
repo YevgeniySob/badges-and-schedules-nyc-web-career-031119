@@ -16,3 +16,4 @@ end
 def printer
   
 end
+batch_badge_creator
