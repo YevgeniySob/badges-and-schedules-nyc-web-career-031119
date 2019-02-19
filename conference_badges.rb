@@ -19,8 +19,8 @@ def assign_rooms(arr)
 end
 
 def printer(arr)
-  temp1 = batch_badge_creator(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
-  temp2 = assign_rooms(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
+  temp1 = batch_badge_creator(arr)
+  temp2 = assign_rooms(arr)
   puts temp1
   puts temp2
 end
