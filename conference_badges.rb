@@ -21,6 +21,7 @@ end
 def printer(arr)
   temp1 = batch_badge_creator(arr)
   temp2 = assign_rooms(arr)
-  puts temp1
-  puts temp2
+  temp1.each do |var1|
+    puts var1
+  end
 end
