@@ -1,5 +1,5 @@
 # Write your code here.
-def badge_maker
+def badge_maker(name)
   
 end
 
@@ -11,3 +11,6 @@ def assign_rooms
   
 end
 
+def printer
+  
+end
