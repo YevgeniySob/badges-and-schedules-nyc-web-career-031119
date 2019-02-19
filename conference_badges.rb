@@ -21,7 +21,10 @@ end
 def printer(arr)
   temp1 = batch_badge_creator(arr)
   temp2 = assign_rooms(arr)
-  temp1.each do |var1|
-    puts var1
+  index = 0 
+  while index < (temp1.size)
+    puts temp1[index]
+    puts temp2[index]
+    index += 1
   end
 end
