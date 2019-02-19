@@ -24,5 +24,3 @@ def printer(arr)
   puts temp1
   puts temp2
 end
-
-printer
