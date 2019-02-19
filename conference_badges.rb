@@ -18,7 +18,7 @@ def assign_rooms(arr)
   return str
 end
 
-def printer
+def printer(arr)
   temp1 = batch_badge_creator(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
   temp2 = assign_rooms(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
   puts temp1
