@@ -24,3 +24,5 @@ def printer
   puts temp1
   puts temp2
 end
+
+printer
